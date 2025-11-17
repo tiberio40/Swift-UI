@@ -37,7 +37,8 @@
                                 <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
                             </div>
                             <form class="user">
-                                <div class="form-group row">
+                                <!-- REEMPLAZO 1: form-group row -> row mb-3 -->
+                                <div class="row mb-3"> 
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <input type="text" class="form-control form-control-user" id="exampleFirstName"
                                             placeholder="First Name">
@@ -47,11 +48,13 @@
                                             placeholder="Last Name">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <!-- REEMPLAZO 2: form-group -> mb-3 -->
+                                <div class="mb-3">
                                     <input type="email" class="form-control form-control-user" id="exampleInputEmail"
                                         placeholder="Email Address">
                                 </div>
-                                <div class="form-group row">
+                                <!-- REEMPLAZO 3: form-group row -> row mb-3 -->
+                                <div class="row mb-3"> 
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <input type="password" class="form-control form-control-user"
                                             id="exampleInputPassword" placeholder="Password">
@@ -61,14 +64,17 @@
                                             id="exampleRepeatPassword" placeholder="Repeat Password">
                                     </div>
                                 </div>
-                                <a href="login.html" class="btn btn-primary btn-user btn-block">
+                                <!-- REEMPLAZO 4: btn-block -> w-100 -->
+                                <a href="login.html" class="btn btn-primary btn-user w-100">
                                     Register Account
                                 </a>
                                 <hr>
-                                <a href="index.html" class="btn btn-google btn-user btn-block">
+                                <!-- REEMPLAZO 4: btn-block -> w-100 -->
+                                <a href="index.html" class="btn btn-google btn-user w-100">
                                     <i class="fab fa-google fa-fw"></i> Register with Google
                                 </a>
-                                <a href="index.html" class="btn btn-facebook btn-user btn-block">
+                                <!-- REEMPLAZO 4: btn-block -> w-100 -->
+                                <a href="index.html" class="btn btn-facebook btn-user w-100 mt-2">
                                     <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook
                                 </a>
                             </form>
@@ -84,7 +90,7 @@
                 </div>
             </div>
         </div>
-
+    
     </div>
 
     <!-- Bootstrap core JavaScript-->
