@@ -1,6 +1,6 @@
 {
     "title": "Lumi",
-    "name": "startbootstrap-lumi",
+    "name": "lumi-admin-dashboard",
     "version": "0.1.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
