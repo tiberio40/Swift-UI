@@ -1,11 +1,11 @@
 {
-    "title": "SB Admin 2",
-    "name": "startbootstrap-sb-admin-2",
-    "version": "4.1.4",
+    "title": "Lumi",
+    "name": "startbootstrap-lumi",
+    "version": "0.1.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "An open source Bootstrap 4 admin theme.",
+    "description": "An open source Bootstrap 5 admin theme.",
     "keywords": [
         "css",
         "sass",
@@ -16,19 +16,18 @@
         "admin",
         "app"
     ],
-    "homepage": "https://startbootstrap.com/theme/sb-admin-2",
+    "homepage": "https://github.com/tiberio40/Lumi",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-sb-admin-2/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/tiberio40/Lumi/issues"
     },
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (https://davidmiller.io/)"
+        "Tiberio40"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-sb-admin-2.git"
+        "url": "https://github.com/tiberio40/Lumi"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.15.3",
