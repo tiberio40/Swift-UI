@@ -50,3 +50,27 @@
     }
   }
 }
+
+.btn {
+  @each $name, $color in $theme-colors {
+    &-#{$name} {
+      color: $white;
+
+      &:hover {
+        color: $white;
+        background-color: darken($color, 8%); 
+      }
+
+      &:focus {
+        color: $white;
+        background-color: darken($color, 8%);
+        box-shadow: 0 0 0 .2rem lighten($color, 30%);
+      }
+
+      &:active {
+        color: $white;
+        background-color: darken($color, 8%); 
+      }
+    }
+  }
+}
