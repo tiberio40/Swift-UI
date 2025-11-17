@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Blank</title>
+    <title>Lumi - Blank</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -18,7 +18,7 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/lumi.min.css" rel="stylesheet">
 
 </head>
 
@@ -35,7 +35,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                <div class="sidebar-brand-text mx-3">Lumi </div>
             </a>
 
             <!-- Divider -->
@@ -156,13 +156,15 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <!-- CAMBIO 1: mr-3 -> me-3 -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle me-3">
                         <i class="fa fa-bars"></i>
                     </button>
 
                     <!-- Topbar Search -->
+                    <!-- CAMBIO 2: mr-auto -> me-auto | ml-md-3 -> ms-md-3 -->
                     <form
-                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        class="d-none d-sm-inline-block form-inline me-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div class="input-group">
                             <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
                                 aria-label="Search" aria-describedby="basic-addon2">
@@ -175,18 +177,20 @@
                     </form>
 
                     <!-- Topbar Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                    <!-- CAMBIO 3: ml-auto -> ms-auto -->
+                    <ul class="navbar-nav ms-auto">
 
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
                         <li class="nav-item dropdown no-arrow d-sm-none">
+                            <!-- CAMBIO 4: data-toggle -> data-bs-toggle -->
                             <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-search fa-fw"></i>
                             </a>
                             <!-- Dropdown - Messages -->
                             <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
                                 aria-labelledby="searchDropdown">
-                                <form class="form-inline mr-auto w-100 navbar-search">
+                                <form class="form-inline me-auto w-100 navbar-search">
                                     <div class="input-group">
                                         <input type="text" class="form-control bg-light border-0 small"
                                             placeholder="Search for..." aria-label="Search"
@@ -203,8 +207,9 @@
 
                         <!-- Nav Item - Alerts -->
                         <li class="nav-item dropdown no-arrow mx-1">
+                            <!-- CAMBIO 5: data-toggle -> data-bs-toggle -->
                             <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-bell fa-fw"></i>
                                 <!-- Counter - Alerts -->
                                 <span class="badge badge-danger badge-counter">3+</span>
@@ -215,8 +220,9 @@
                                 <h6 class="dropdown-header">
                                     Alerts Center
                                 </h6>
+                                <!-- CAMBIO 6: mr-3 -> me-3 -->
                                 <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
+                                    <div class="me-3">
                                         <div class="icon-circle bg-primary">
                                             <i class="fas fa-file-alt text-white"></i>
                                         </div>
@@ -226,8 +232,9 @@
                                         <span class="fw-bold">A new monthly report is ready to download!</span>
                                     </div>
                                 </a>
+                                <!-- CAMBIO 7: mr-3 -> me-3 -->
                                 <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
+                                    <div class="me-3">
                                         <div class="icon-circle bg-success">
                                             <i class="fas fa-donate text-white"></i>
                                         </div>
@@ -237,8 +244,9 @@
                                         $290.29 has been deposited into your account!
                                     </div>
                                 </a>
+                                <!-- CAMBIO 8: mr-3 -> me-3 -->
                                 <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
+                                    <div class="me-3">
                                         <div class="icon-circle bg-warning">
                                             <i class="fas fa-exclamation-triangle text-white"></i>
                                         </div>
@@ -254,8 +262,9 @@
 
                         <!-- Nav Item - Messages -->
                         <li class="nav-item dropdown no-arrow mx-1">
+                            <!-- CAMBIO 9: data-toggle -> data-bs-toggle -->
                             <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-envelope fa-fw"></i>
                                 <!-- Counter - Messages -->
                                 <span class="badge badge-danger badge-counter">7</span>
@@ -266,10 +275,10 @@
                                 <h6 class="dropdown-header">
                                     Message Center
                                 </h6>
+                                <!-- CAMBIO 10: mr-3 -> me-3 -->
                                 <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_1.svg"
-                                            alt="...">
+                                    <div class="dropdown-list-image me-3">
+                                        <img class="rounded-circle" src="img/undraw_profile_1.svg" alt="...">
                                         <div class="status-indicator bg-success"></div>
                                     </div>
                                     <div class="fw-bold">
@@ -278,10 +287,10 @@
                                         <div class="small text-gray-500">Emily Fowler · 58m</div>
                                     </div>
                                 </a>
+                                <!-- CAMBIO 11: mr-3 -> me-3 -->
                                 <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_2.svg"
-                                            alt="...">
+                                    <div class="dropdown-list-image me-3">
+                                        <img class="rounded-circle" src="img/undraw_profile_2.svg" alt="...">
                                         <div class="status-indicator"></div>
                                     </div>
                                     <div>
@@ -290,10 +299,10 @@
                                         <div class="small text-gray-500">Jae Chun · 1d</div>
                                     </div>
                                 </a>
+                                <!-- CAMBIO 12: mr-3 -> me-3 -->
                                 <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_3.svg"
-                                            alt="...">
+                                    <div class="dropdown-list-image me-3">
+                                        <img class="rounded-circle" src="img/undraw_profile_3.svg" alt="...">
                                         <div class="status-indicator bg-warning"></div>
                                     </div>
                                     <div>
@@ -302,8 +311,9 @@
                                         <div class="small text-gray-500">Morgan Alvarez · 2d</div>
                                     </div>
                                 </a>
+                                <!-- CAMBIO 13: mr-3 -> me-3 -->
                                 <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="dropdown-list-image mr-3">
+                                    <div class="dropdown-list-image me-3">
                                         <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
                                             alt="...">
                                         <div class="status-indicator bg-success"></div>
@@ -322,30 +332,36 @@
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
+                            <!-- CAMBIO 14: data-toggle -> data-bs-toggle -->
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Emilie Castaneda</span>
-                                <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <!-- CAMBIO 15: mr-2 -> me-2 -->
+                                <span class="me-2 d-none d-lg-inline text-gray-600 small">Emilie Castaneda</span>
+                                <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
-                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    <!-- CAMBIO 16: mr-2 -> me-2 -->
+                                    <i class="fas fa-user fa-sm fa-fw me-2 text-gray-400"></i>
                                     Profile
                                 </a>
                                 <a class="dropdown-item" href="#">
-                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    <!-- CAMBIO 17: mr-2 -> me-2 -->
+                                    <i class="fas fa-cogs fa-sm fa-fw me-2 text-gray-400"></i>
                                     Settings
                                 </a>
                                 <a class="dropdown-item" href="#">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    <!-- CAMBIO 18: mr-2 -> me-2 -->
+                                    <i class="fas fa-list fa-sm fa-fw me-2 text-gray-400"></i>
                                     Activity Log
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
-                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                <!-- CAMBIO 19: data-toggle -> data-bs-toggle | data-target -> data-bs-target -->
+                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                    <!-- CAMBIO 20: mr-2 -> me-2 -->
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>
                                     Logout
                                 </a>
                             </div>
@@ -417,7 +433,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
+    <script src="js/lumi.min.js"></script>
 
 </body>
 

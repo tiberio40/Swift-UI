@@ -1,11 +1,11 @@
-# [Start Bootstrap - SB Admin 2](https://startbootstrap.com/theme/sb-admin-2/)
+# Lumi
 
-SB Admin 2 is an open source admin dashboard theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/) and modified by Tiberio40.
+Lumi is an open source admin dashboard theme for [Bootstrap](https://getbootstrap.com/).
 
 
 ## Notes
 
-Version 0.1 
+Version 0.1.0
 
 - Bootstrap 5.3.8
 - chart.js 2.9.4
@@ -17,7 +17,7 @@ Version 0.1
 
 ## Preview
 
-[![SB Admin 2 Preview](https://github.com/tiberio40/startbootstrap-sb-admin-2/blob/docs/update_readme/Screenshot.png?raw=true)](https://startbootstrap.github.io/startbootstrap-sb-admin-2/)
+![Lumi Preview](https://github.com/tiberio40/Lumi/blob/develop/Screenshot.png?raw=true)]
 
 
 ## Status

@@ -96,6 +96,9 @@ function css() {
     .pipe(header(banner, {
       pkg: pkg
     }))
+    .pipe(rename({
+      basename: "lumi"
+    }))
     .pipe(gulp.dest("./css"))
     .pipe(rename({
       suffix: ".min"
@@ -112,6 +115,9 @@ function js() {
       './js/*.js',
       '!./js/*.min.js',
     ])
+    .pipe(rename({
+      basename: "lumi"
+    }))
     .pipe(uglify())
     .pipe(header(banner, {
       pkg: pkg
