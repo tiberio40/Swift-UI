@@ -17,7 +17,7 @@ Version 0.1.0
 
 ## Preview
 
-[![SB Admin 2 Preview](https://github.com/tiberio40/startbootstrap-sb-admin-2/blob/docs/update_readme/Screenshot.png?raw=true)](https://startbootstrap.github.io/startbootstrap-sb-admin-2/)
+![Lumi Preview](https://github.com/tiberio40/Lumi/blob/develop/Screenshot.png?raw=true)]
 
 
 ## Status
