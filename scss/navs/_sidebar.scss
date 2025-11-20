@@ -235,7 +235,7 @@
                 }
 
                 // Accordion Arrow Icon
-                &[data-toggle="collapse"] {
+                &[data-bs-toggle="collapse"] {
                     &::after {
                         width: 1rem;
                         text-align: center;
@@ -319,7 +319,7 @@
                         margin-right: 0;
                     }
 
-                    &[data-toggle="collapse"]::after {
+                    &[data-bs-toggle="collapse"]::after {
                         display: none;
                     }
                 }
